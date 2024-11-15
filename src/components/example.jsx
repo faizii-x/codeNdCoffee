@@ -76,7 +76,9 @@ export default function Example({ open, setOpen }) {
                   <div className="flex  h-full flex-col overflow-y-scroll bg-gray-300 z-50 py-6 shadow-xl">
                     <div className="container grid grid-cols-1 p-3">
                       <Link to="/">
-                        <div className="text-black text-center font-bold">MessagesUi</div>{" "}
+                        <div className="text-black text-center font-bold">
+                          MessagesUi
+                        </div>{" "}
                       </Link>
                       <Link to="/">
                         <p className="hover:text-hover  text-black pt-5">
@@ -91,7 +93,31 @@ export default function Example({ open, setOpen }) {
                         Services
                       </Link>
 
-                     
+                      <Link
+                        to="/gift/"
+                        className="hover:text-hover  text-black pt-5"
+                      >
+                        Gift Cards
+                      </Link>
+                      <Link
+                        to="/appointment/"
+                        className="hover:text-hover  text-black pt-5"
+                      >
+                        Appointments
+                      </Link>
+                      <Link
+                        to="/message/"
+                        className="hover:text-hover  text-black pt-5"
+                      >
+                        Messages
+                      </Link>
+
+                      <Link
+                        to="/product/"
+                        className="hover:text-hover  text-black pt-5"
+                      >
+                        Product
+                      </Link>
                     </div>
                   </div>
                 </Dialog.Panel>
