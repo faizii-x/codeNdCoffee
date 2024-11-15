@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.class-hide-nav {
+  display: block;
+}
+
+/* media queries */
+
+@media (max-width: 1279px) {
+  .class-hide-nav {
+    display: none;
+  }
+}
